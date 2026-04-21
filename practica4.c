@@ -92,10 +92,8 @@ int main(int argc, char *argv[]) {
     printf("Hilo 2 (%d!) = %lld\n", arg2.num, arg2.resultado);
     printf("Tiempo paralelo: %.2f segundos\n", fin_paralelo - inicio_paralelo);
 
-
-    // -------------------------------
     // EJECUCIÓN SECUENCIAL
-    // -------------------------------
+
     printf("\n<<<<EJECUCIÓN SECUENCIAL>>>>\n");
 
     double inicio_sec = tiempo_actual();    //Toma tiempo
